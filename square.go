@@ -18,5 +18,5 @@ func (square Square) Area() uint {
 }
 
 func (square Square) Perimeter() uint {
-	return square.a + square.a
+	return 4 * square.a
 }
